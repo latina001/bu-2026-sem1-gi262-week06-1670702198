@@ -1,3 +1,4 @@
+
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -12,7 +13,21 @@ namespace MidtermExam.Prob02
         /// <returns>LinkedList ที่ได้รับการเรียงลำดับจากน้อยไปมากแล้ว</returns>
         public LinkedList<int> SortAscending(LinkedList<int> list)
         {
-            // TODO: Implement sorting algorithm for LinkedList<int> (Ascending)
+          
+            string[] number = new string[list.Count];
+            for (int i = 0; i < number.Length - 1; i++) 
+            {
+                int midIndex = i;
+                for (int j = midIndex + 1; j < number.Length; j++)
+                {
+                  /*  if (number[j] < number[]) 
+                    {
+                        midIndex = j;
+                    }*/
+                }
+            }
+
+
             return list;
         }
 
